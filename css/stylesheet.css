@@ -27,7 +27,7 @@ header {
 }
 
 #sidebar{
-  width: 70%;
+  width: 120px;
   align-content: space-between;
   background-color:slategray;
   color:#002233;
@@ -54,17 +54,11 @@ nav{
 
 /* article */
 article{
-  background-color:slategray;
-  border-color: black;
-  margin: 10px;
-  border-radius: 10px;
+  
 }
 /* Div */
 div{
-  background-color:slategray;
-  border-color: black;
-  margin: 10px;
-  border-radius: 10px;
+  
 }
 /* Icons */
 .icons{
@@ -76,9 +70,10 @@ border-radius: 10px;
 }
 /* Section */
 section{
-  background-color:slategray;
-  margin: 10px;
-  border-radius: 10px;
+ 
 }
 
+.main{
+  display: flex;
+}
 
