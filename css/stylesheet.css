@@ -1,79 +1,56 @@
-/* body */
 body{
   font-family: 'Times New Roman', Times, serif;
-  font-size:110%;
-  background-color:azure;
-}
-/* header */
-header {
-  text-align: center;
-  background-color:slategray;
-  margin: 10px;
-  border-radius: 10px;
+  font-size: 110%;
+  background-color:wheat
 }
 
-#heading{
-  font-family: 'Times New Roman', Times, serif;
-  background-color: slategray;
+header{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
   color: aqua;
+  background-color: #001220;
 }
 
 #headshot{
   width: 170px;
   height: 170px;
-  border: #002233 solid 10px;
+  margin: 10px;
   border-radius: 100%;
-
+  border: 5px solid black;
+  object-position: top 50%;
 }
 
 #sidebar{
-  width: 120px;
-  align-content: space-between;
-  background-color:slategray;
-  color:#002233;
-padding: 10px;
+  width: 20%;
+  padding: 1rem;
+  background-color: #001220;
+  color: aqua;
 
-}
-
-/* footer */
-footer {
-  background-color:slategray;
-  text-align: center;
-  margin: 10px;
-  border-radius: 10px;
-}
-/* Navigation Menu */
-nav{
-  background-color:slategray;
-  border-color: black;
-  margin: 10px;
-  border-radius: 50px;
-  border-color: black;
-}
-
-
-/* article */
-article{
-  
-}
-/* Div */
-div{
-  
-}
-/* Icons */
-.icons{
-  width: 3rem;
-  height: auto;
-align-items: center;
-margin: 2%;
-border-radius: 10px;
-}
-/* Section */
-section{
- 
 }
 
 .main{
   display: flex;
+  margin-left: 1%;
+  flex: 1;
 }
 
+.icons{
+  width: 3rem;
+  height: auto;
+  margin: 5%;
+  align-content: center;
+}
+
+#footer{
+background-color: #001220;
+text-align: center;
+}
+
+article{
+  margin-left: 2%;
+  border: black;
+}
+
+.nav-meni{
+  color: aqua;
+}
