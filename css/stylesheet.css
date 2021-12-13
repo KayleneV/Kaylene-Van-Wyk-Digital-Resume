@@ -1,14 +1,14 @@
 body{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 110%;
-  background-color:wheat
+  font-size: 100%;
+  background-color:thistle
 }
 
 header{
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  color: aqua;
-  background-color: #001220;
+  color: white;
+  background-color: #3D3D3D;
 }
 
 #headshot{
@@ -23,9 +23,8 @@ header{
 #sidebar{
   width: 20%;
   padding: 1rem;
-  background-color: #001220;
-  color: aqua;
-
+  background-color: #3D3D3D;
+  color: white;
 }
 
 .main{
@@ -42,19 +41,30 @@ header{
 }
 
 #footer{
-background-color: #001220;
+background-color: #3D3D3D;
 text-align: center;
+color: white;
 }
 
 article{
   margin-left: 2%;
   border: black;
+  text-size-adjust: 70%;
 }
 
 .nav-menu{
-  color: aqua;
+  color: white;
 }
 
 #skills{
   text-align: 50px;
 }
+
+#heading{
+  color: white;
+}
+
+.experience{
+  text-emphasis: none;
+}
+
