@@ -1,5 +1,5 @@
 body{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 130%;
   background-color:thistle;
   border: black;
@@ -14,20 +14,20 @@ header{
 }
 
 #headshot{
-  width: 170px;
-  height: 170px;
-  margin: 10px;
-  border-radius: 100%;
-  border: 5px solid #ECE9E1;
-  object-position: top 50%;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  border: thistle solid 10px;
+  padding: 5px;
 }
 
 #sidebar{
   width: 20%;
+  border-radius: 5px;
   padding: 1rem;
   background-color: #3D3D3D;
   color: white;
-  border-radius: 10px;
+  margin: 1px;
 }
 
 .main{
@@ -56,8 +56,10 @@ article{
   text-size-adjust: 70%;
 }
 
-.nav-menu{
+.navigation menu{
   color: white;
+  margin: 1rem;
+  border-radius: 10px;
 }
 
 #skills{
@@ -67,12 +69,3 @@ article{
 #heading{
   color: white;
 }
-
-.experience{
-  text-emphasis: none;
-  font-style: normal;
-}
-
-#wholedocument{
-  border: black;
-} 
