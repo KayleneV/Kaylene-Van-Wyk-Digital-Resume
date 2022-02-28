@@ -90,12 +90,3 @@ text-align: left;
   display: flex;
   content: none;
 }
-
-@keyframes LinkedIn_logo_initials.png {
-  0%   {background-color: purple;
-        transform: translateY(300px);}
-  25%  {background-color: pink;}
-  50%  {background-color: bisque;
-        border-radius: 100%;}
-  100% {background-color: darkblue;
-        transform: rotate(90deg);}
