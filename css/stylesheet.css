@@ -6,8 +6,8 @@ body{
 
 header{
   font-family: sans-serif;
-  background-color: #807166;
-  color: black ;
+  background-color: hsl(25, 11%, 45%);
+  color: white;
   border: #2B2741 ;
 }
 
@@ -89,4 +89,17 @@ text-align: left;
 ::content{
   display: flex;
   content: none;
+}
+
+a {
+  background-color: #807166;
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: #E9967A;
+}
+
+header {
+  background: white url(https://static.vecteezy.com/system/resources/thumbnails/001/340/791/small/pastel-rainbow-blurry-background-with-sparks-free-vector.jpg)
 }
