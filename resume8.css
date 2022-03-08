@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+}
+
+.content{
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    background-color: salmon;
+    margin: 5px;
+}
+
+@media screen and (max-width: 780px) {
+    /* If the browser window is 780px or smaller*/
+}
+.content{
+    display: inline-block;
+    width: 45%;
+    height: 150px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    width: 75%;
+    background-color: #807166;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
