@@ -1,7 +1,6 @@
 body{
     font-family: sans-serif;
     font-size: 110%;
-    background-color: #BAA495;
   }
   
   header{
@@ -90,4 +89,20 @@ body{
   img:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
+  }
+
+  .responsive {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body{
+    background-image: url("https://wallpaperaccess.com/full/5049593.jpg");
+    background-color: #cccccc;
   }
