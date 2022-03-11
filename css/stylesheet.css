@@ -39,7 +39,7 @@ body{
     text-align: left;
   }
   
-  .main{
+  #main{
     display: flex;
     margin-left: 1%;
     flex: 1;
@@ -116,13 +116,13 @@ body{
     height: 100%;
   }
   
-  .main-page > .side-bar {
+  .side-bar {
     display: grid;
     grid-row: 1/4;
     width: 80px;
   }
   
-  .main-page > .profile-pane {
+  .main-page > .experience-pane {
     width: 260px;
     position: relative;
     grid-row: 2/4;
